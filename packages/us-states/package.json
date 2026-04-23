@@ -1,6 +1,6 @@
 {
   "name": "@pgpm-demo/us-states",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "author": "Dan Lynch <pyramation@gmail.com>",
   "description": "us-states",
   "homepage": "https://github.com/constructive-io/pgpm-demo",
@@ -24,7 +24,7 @@
   },
   "keywords": [],
   "devDependencies": {
-    "pgsql-test": "^4.7.6",
-    "makage": "^0.3.0"
+    "makage": "^0.3.0",
+    "pgsql-test": "^4.7.6"
   }
 }
