@@ -1,0 +1,1 @@
+pgpm install  @pgpm-demo/patients
