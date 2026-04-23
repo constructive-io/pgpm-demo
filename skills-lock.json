@@ -1,0 +1,25 @@
+{
+  "version": 1,
+  "skills": {
+    "constructive-graphql": {
+      "source": "constructive-io/constructive-skills",
+      "sourceType": "github",
+      "computedHash": "7e87f82699e8fd09d8bcd2e97df8fb2eac3ca53309c549e5fbbec045eb98cdea"
+    },
+    "constructive-testing": {
+      "source": "constructive-io/constructive-skills",
+      "sourceType": "github",
+      "computedHash": "b1727d3ef143b4bc46b3dbf0ca2cb9c3a309ac0688cb39346cdb9b81419a5d1b"
+    },
+    "constructive-tooling": {
+      "source": "constructive-io/constructive-skills",
+      "sourceType": "github",
+      "computedHash": "b28516aad75472a7aa32b494fa77985f6c7c2f98ad92c6fb91b408c0e2da245c"
+    },
+    "pgpm": {
+      "source": "constructive-io/constructive-skills",
+      "sourceType": "github",
+      "computedHash": "5c2d90f895c83e56547c48f91617e2446e1471931f2e682f5f6e14cd9b340a5d"
+    }
+  }
+}
