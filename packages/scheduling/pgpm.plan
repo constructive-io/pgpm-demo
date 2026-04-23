@@ -1,0 +1,9 @@
+%syntax-version=1.0.0
+%project=scheduling
+%uri=scheduling
+
+schemas/scheduling 2026-04-23T05:25:12Z constructive <constructive@5b0c196eeb62> # add schemas/scheduling
+schemas/scheduling/tables/appointments [schemas/scheduling] 2026-04-23T05:25:12Z constructive <constructive@5b0c196eeb62> # add schemas/scheduling/tables/appointments
+schemas/scheduling/tables/encounters [schemas/scheduling/tables/appointments] 2026-04-23T05:25:12Z constructive <constructive@5b0c196eeb62> # add schemas/scheduling/tables/encounters
+schemas/scheduling/policies/appointments_rls [schemas/scheduling/tables/appointments] 2026-04-23T05:25:12Z constructive <constructive@5b0c196eeb62> # add schemas/scheduling/policies/appointments_rls
+schemas/scheduling/policies/encounters_rls [schemas/scheduling/tables/encounters] 2026-04-23T05:25:13Z constructive <constructive@5b0c196eeb62> # add schemas/scheduling/policies/encounters_rls

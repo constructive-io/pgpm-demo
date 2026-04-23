@@ -1,0 +1,7 @@
+# patients extension
+comment = 'patients extension'
+default_version = '0.0.1'
+module_pathname = '$libdir/patients'
+requires = 'plpgsql'
+relocatable = false
+superuser = false

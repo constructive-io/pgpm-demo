@@ -1,0 +1,7 @@
+# medications extension
+comment = 'medications extension'
+default_version = '0.0.1'
+module_pathname = '$libdir/medications'
+requires = 'plpgsql'
+relocatable = false
+superuser = false

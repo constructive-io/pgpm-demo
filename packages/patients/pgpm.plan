@@ -1,0 +1,14 @@
+%syntax-version=1.0.0
+%project=patients
+%uri=patients
+
+roles/authenticated 2026-04-23T05:19:51Z constructive <constructive@5b0c196eeb62> # add roles/authenticated
+schemas/app 2026-04-23T05:19:51Z constructive <constructive@5b0c196eeb62> # add schemas/app
+schemas/app/functions/current_user_id [schemas/app] 2026-04-23T05:19:51Z constructive <constructive@5b0c196eeb62> # add schemas/app/functions/current_user_id
+schemas/app/functions/current_role [schemas/app] 2026-04-23T05:19:51Z constructive <constructive@5b0c196eeb62> # add schemas/app/functions/current_role
+schemas/app/functions/is_clinician_or_admin [schemas/app/functions/current_role] 2026-04-23T05:19:51Z constructive <constructive@5b0c196eeb62> # add schemas/app/functions/is_clinician_or_admin
+schemas/patients 2026-04-23T05:19:52Z constructive <constructive@5b0c196eeb62> # add schemas/patients
+schemas/patients/tables/patients [schemas/patients] 2026-04-23T05:19:52Z constructive <constructive@5b0c196eeb62> # add schemas/patients/tables/patients
+schemas/patients/tables/patient_contacts [schemas/patients/tables/patients] 2026-04-23T05:19:52Z constructive <constructive@5b0c196eeb62> # add schemas/patients/tables/patient_contacts
+schemas/patients/policies/patients_rls [schemas/patients/tables/patients schemas/app/functions/current_user_id schemas/app/functions/is_clinician_or_admin roles/authenticated] 2026-04-23T05:20:00Z constructive <constructive@5b0c196eeb62> # add schemas/patients/policies/patients_rls
+schemas/patients/policies/patient_contacts_rls [schemas/patients/tables/patient_contacts schemas/app/functions/current_user_id schemas/app/functions/is_clinician_or_admin roles/authenticated] 2026-04-23T05:20:00Z constructive <constructive@5b0c196eeb62> # add schemas/patients/policies/patient_contacts_rls

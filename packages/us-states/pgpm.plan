@@ -1,0 +1,7 @@
+%syntax-version=1.0.0
+%project=us-states
+%uri=us-states
+
+schemas/us_states 2026-04-23T05:10:21Z constructive <constructive@5b0c196eeb62> # add schemas/us_states
+schemas/us_states/tables/states [schemas/us_states] 2026-04-23T05:10:21Z constructive <constructive@5b0c196eeb62> # add schemas/us_states/tables/states
+schemas/us_states/seeds/states [schemas/us_states/tables/states] 2026-04-23T05:10:21Z constructive <constructive@5b0c196eeb62> # add schemas/us_states/seeds/states

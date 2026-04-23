@@ -1,0 +1,7 @@
+%syntax-version=1.0.0
+%project=medications
+%uri=medications
+
+schemas/medications 2026-04-23T05:23:52Z constructive <constructive@5b0c196eeb62> # add schemas/medications
+schemas/medications/tables/medications [schemas/medications] 2026-04-23T05:23:52Z constructive <constructive@5b0c196eeb62> # add schemas/medications/tables/medications
+schemas/medications/seeds/medications [schemas/medications/tables/medications] 2026-04-23T05:23:52Z constructive <constructive@5b0c196eeb62> # add schemas/medications/seeds/medications

@@ -1,0 +1,7 @@
+# scheduling extension
+comment = 'scheduling extension'
+default_version = '0.0.1'
+module_pathname = '$libdir/scheduling'
+requires = 'plpgsql,patients'
+relocatable = false
+superuser = false

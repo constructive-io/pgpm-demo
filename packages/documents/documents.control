@@ -1,0 +1,7 @@
+# documents extension
+comment = 'documents extension'
+default_version = '0.0.1'
+module_pathname = '$libdir/documents'
+requires = 'plpgsql'
+relocatable = false
+superuser = false
