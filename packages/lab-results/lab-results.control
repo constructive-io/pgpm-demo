@@ -1,6 +1,6 @@
 # lab-results extension
 comment = 'lab-results extension'
-default_version = '0.0.1'
+default_version = '0.1.0'
 module_pathname = '$libdir/lab-results'
 requires = 'plpgsql,lab-orders'
 relocatable = false

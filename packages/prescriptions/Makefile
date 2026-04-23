@@ -1,5 +1,5 @@
 EXTENSION = prescriptions
-DATA = sql/prescriptions--0.0.1.sql
+DATA = sql/prescriptions--0.1.0.sql
 
 PG_CONFIG = pg_config
 PGXS := $(shell $(PG_CONFIG) --pgxs)

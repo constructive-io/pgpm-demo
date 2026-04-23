@@ -6,8 +6,7 @@
   "homepage": "https://github.com/constructive-io/pgpm-demo",
   "license": "MIT",
   "publishConfig": {
-    "access": "public",
-    "directory": "dist"
+    "access": "public"
   },
   "repository": {
     "type": "git",
@@ -18,6 +17,7 @@
     "url": "https://github.com/constructive-io/pgpm-demo/issues"
   },
   "scripts": {
+    "bundle": "pgpm package",
     "lint": "eslint . --fix",
     "test": "jest",
     "test:watch": "jest --watchAll"
@@ -27,7 +27,6 @@
     "@pgpm-demo/scheduling": "workspace:*"
   },
   "devDependencies": {
-    "makage": "^0.3.0",
     "pgsql-test": "^4.7.6"
   }
 }

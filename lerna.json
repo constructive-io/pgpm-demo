@@ -11,7 +11,7 @@
   "registry": "https://registry.npmjs.org",
   "command": {
     "create": {
-      "homepage": "https://github.com/pyramation/postgres-conference",
+      "homepage": "https://github.com/constructive-io/pgpm-demo",
       "license": "MIT",
       "access": "restricted"
     },

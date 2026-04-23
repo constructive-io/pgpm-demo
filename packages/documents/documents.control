@@ -1,6 +1,6 @@
 # documents extension
 comment = 'documents extension'
-default_version = '0.0.1'
+default_version = '0.1.0'
 module_pathname = '$libdir/documents'
 requires = 'plpgsql,scheduling'
 relocatable = false

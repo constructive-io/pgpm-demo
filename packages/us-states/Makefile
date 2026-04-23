@@ -1,5 +1,5 @@
 EXTENSION = us-states
-DATA = sql/us-states--0.0.1.sql
+DATA = sql/us-states--0.1.0.sql
 
 PG_CONFIG = pg_config
 PGXS := $(shell $(PG_CONFIG) --pgxs)

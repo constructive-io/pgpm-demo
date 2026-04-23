@@ -1,6 +1,6 @@
 # us-states extension
 comment = 'us-states extension'
-default_version = '0.0.1'
+default_version = '0.1.0'
 module_pathname = '$libdir/us-states'
 requires = 'plpgsql'
 relocatable = false
