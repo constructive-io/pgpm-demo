@@ -1,5 +1,5 @@
 {
-  "name": "clinical",
+  "name": "@pgpm-demo/clinical",
   "version": "0.0.1",
   "author": "Dan Lynch <pyramation@gmail.com>",
   "description": "clinical",
@@ -22,6 +22,9 @@
     "test:watch": "jest --watchAll"
   },
   "keywords": [],
+  "dependencies": {
+    "@pgpm-demo/scheduling": "workspace:*"
+  },
   "devDependencies": {
     "pgsql-test": "^4.7.6",
     "makage": "^0.3.0"

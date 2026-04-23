@@ -11,13 +11,19 @@ on:
 jobs:
   test:
     runs-on: ubuntu-latest
-    continue-on-error: true
     strategy:
       fail-fast: false
       matrix:
         package:
-          - your-module-1
-          - your-module-2
+          - patients
+          - medications
+          - scheduling
+          - clinical
+          - lab-orders
+          - lab-results
+          - prescriptions
+          - documents
+          - us-states
 
     env:
       PGHOST: localhost
@@ -82,13 +88,13 @@ jobs:
         uses: actions/cache@v4
         with:
           path: ~/.npm
-          key: pgpm-${{ env.PGPM_VERSION }}
+          key: pgpm-${{ runner.os }}-${{ env.PGPM_VERSION }}
 
       - name: Install pgpm CLI globally
         run: npm install -g pgpm@${{ env.PGPM_VERSION }}
 
       - name: Build
-        run: pnpm -r build
+        run: pnpm -r --if-present build
 
       - name: Seed pg and app_user
         run: |
