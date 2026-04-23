@@ -5,8 +5,8 @@
 </p>
 
 <p align="center" width="100%">
-  <a href="https://github.com/pyramation/postgres-conference/actions/workflows/ci.yml">
-    <img height="20" src="https://github.com/pyramation/postgres-conference/actions/workflows/ci.yml/badge.svg" />
+  <a href="https://github.com/constructive-io/pgpm-demo/actions/workflows/ci.yml">
+    <img height="20" src="https://github.com/constructive-io/pgpm-demo/actions/workflows/ci.yml/badge.svg?branch=main" />
   </a>
 </p>
 

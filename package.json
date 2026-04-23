@@ -5,7 +5,7 @@
   "private": true,
   "repository": {
     "type": "git",
-    "url": "https://github.com/pyramation/postgres-conference"
+    "url": "https://github.com/constructive-io/pgpm-demo"
   },
   "license": "MIT",
   "engines": {

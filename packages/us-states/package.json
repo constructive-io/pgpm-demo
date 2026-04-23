@@ -3,7 +3,7 @@
   "version": "0.0.1",
   "author": "Dan Lynch <pyramation@gmail.com>",
   "description": "us-states",
-  "homepage": "https://github.com/pyramation/postgres-conference",
+  "homepage": "https://github.com/constructive-io/pgpm-demo",
   "license": "MIT",
   "publishConfig": {
     "access": "public",
@@ -11,10 +11,11 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/pyramation/postgres-conference"
+    "url": "https://github.com/constructive-io/pgpm-demo",
+    "directory": "packages/us-states"
   },
   "bugs": {
-    "url": "https://github.com/pyramation/postgres-conference/issues"
+    "url": "https://github.com/constructive-io/pgpm-demo/issues"
   },
   "scripts": {
     "lint": "eslint . --fix",
