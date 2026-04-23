@@ -2,6 +2,6 @@
 comment = 'lab-orders extension'
 default_version = '0.0.1'
 module_pathname = '$libdir/lab-orders'
-requires = 'plpgsql'
+requires = 'plpgsql,scheduling'
 relocatable = false
 superuser = false

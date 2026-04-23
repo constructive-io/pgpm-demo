@@ -1,3 +1,7 @@
 %syntax-version=1.0.0
 %project=documents
 %uri=documents
+
+schemas/documents 2026-04-23T05:35:16Z constructive <constructive@5b0c196eeb62> # add schemas/documents
+schemas/documents/tables/documents [schemas/documents] 2026-04-23T05:35:16Z constructive <constructive@5b0c196eeb62> # add schemas/documents/tables/documents
+schemas/documents/policies/documents_rls [schemas/documents/tables/documents] 2026-04-23T05:35:16Z constructive <constructive@5b0c196eeb62> # add schemas/documents/policies/documents_rls

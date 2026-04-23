@@ -57,6 +57,96 @@ importers:
         specifier: ^5.9.3
         version: 5.9.3
 
+  packages/clinical:
+    devDependencies:
+      makage:
+        specifier: ^0.3.0
+        version: 0.3.0
+      pgsql-test:
+        specifier: ^4.7.6
+        version: 4.9.3
+    publishDirectory: dist
+
+  packages/documents:
+    devDependencies:
+      makage:
+        specifier: ^0.3.0
+        version: 0.3.0
+      pgsql-test:
+        specifier: ^4.7.6
+        version: 4.9.3
+    publishDirectory: dist
+
+  packages/lab-orders:
+    devDependencies:
+      makage:
+        specifier: ^0.3.0
+        version: 0.3.0
+      pgsql-test:
+        specifier: ^4.7.6
+        version: 4.9.3
+    publishDirectory: dist
+
+  packages/lab-results:
+    devDependencies:
+      makage:
+        specifier: ^0.3.0
+        version: 0.3.0
+      pgsql-test:
+        specifier: ^4.7.6
+        version: 4.9.3
+    publishDirectory: dist
+
+  packages/medications:
+    devDependencies:
+      makage:
+        specifier: ^0.3.0
+        version: 0.3.0
+      pgsql-test:
+        specifier: ^4.7.6
+        version: 4.9.3
+    publishDirectory: dist
+
+  packages/patients:
+    devDependencies:
+      makage:
+        specifier: ^0.3.0
+        version: 0.3.0
+      pgsql-test:
+        specifier: ^4.7.6
+        version: 4.9.3
+    publishDirectory: dist
+
+  packages/prescriptions:
+    devDependencies:
+      makage:
+        specifier: ^0.3.0
+        version: 0.3.0
+      pgsql-test:
+        specifier: ^4.7.6
+        version: 4.9.3
+    publishDirectory: dist
+
+  packages/scheduling:
+    devDependencies:
+      makage:
+        specifier: ^0.3.0
+        version: 0.3.0
+      pgsql-test:
+        specifier: ^4.7.6
+        version: 4.9.3
+    publishDirectory: dist
+
+  packages/us-states:
+    devDependencies:
+      makage:
+        specifier: ^0.3.0
+        version: 0.3.0
+      pgsql-test:
+        specifier: ^4.7.6
+        version: 4.9.3
+    publishDirectory: dist
+
 packages:
 
   '@0no-co/graphql.web@1.2.0':

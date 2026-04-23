@@ -2,6 +2,6 @@
 comment = 'clinical extension'
 default_version = '0.0.1'
 module_pathname = '$libdir/clinical'
-requires = 'plpgsql'
+requires = 'plpgsql,scheduling'
 relocatable = false
 superuser = false

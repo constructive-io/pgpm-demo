@@ -1,3 +1,7 @@
 %syntax-version=1.0.0
 %project=lab-orders
 %uri=lab-orders
+
+schemas/lab_orders 2026-04-23T05:30:12Z constructive <constructive@5b0c196eeb62> # add schemas/lab_orders
+schemas/lab_orders/tables/lab_orders [schemas/lab_orders] 2026-04-23T05:30:12Z constructive <constructive@5b0c196eeb62> # add schemas/lab_orders/tables/lab_orders
+schemas/lab_orders/policies/lab_orders_rls [schemas/lab_orders/tables/lab_orders] 2026-04-23T05:30:12Z constructive <constructive@5b0c196eeb62> # add schemas/lab_orders/policies/lab_orders_rls

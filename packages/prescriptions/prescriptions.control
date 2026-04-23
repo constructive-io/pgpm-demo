@@ -2,6 +2,6 @@
 comment = 'prescriptions extension'
 default_version = '0.0.1'
 module_pathname = '$libdir/prescriptions'
-requires = 'plpgsql'
+requires = 'plpgsql,medications,scheduling'
 relocatable = false
 superuser = false

@@ -1,3 +1,11 @@
 %syntax-version=1.0.0
 %project=clinical
 %uri=clinical
+
+schemas/clinical 2026-04-23T05:27:15Z constructive <constructive@5b0c196eeb62> # add schemas/clinical
+schemas/clinical/tables/conditions [schemas/clinical] 2026-04-23T05:27:15Z constructive <constructive@5b0c196eeb62> # add schemas/clinical/tables/conditions
+schemas/clinical/tables/allergies [schemas/clinical] 2026-04-23T05:27:15Z constructive <constructive@5b0c196eeb62> # add schemas/clinical/tables/allergies
+schemas/clinical/tables/vitals [schemas/clinical] 2026-04-23T05:27:15Z constructive <constructive@5b0c196eeb62> # add schemas/clinical/tables/vitals
+schemas/clinical/policies/conditions_rls [schemas/clinical/tables/conditions] 2026-04-23T05:27:16Z constructive <constructive@5b0c196eeb62> # add schemas/clinical/policies/conditions_rls
+schemas/clinical/policies/allergies_rls [schemas/clinical/tables/allergies] 2026-04-23T05:27:16Z constructive <constructive@5b0c196eeb62> # add schemas/clinical/policies/allergies_rls
+schemas/clinical/policies/vitals_rls [schemas/clinical/tables/vitals] 2026-04-23T05:27:16Z constructive <constructive@5b0c196eeb62> # add schemas/clinical/policies/vitals_rls

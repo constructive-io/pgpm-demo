@@ -1,3 +1,7 @@
 %syntax-version=1.0.0
 %project=prescriptions
 %uri=prescriptions
+
+schemas/prescriptions 2026-04-23T05:33:24Z constructive <constructive@5b0c196eeb62> # add schemas/prescriptions
+schemas/prescriptions/tables/prescriptions [schemas/prescriptions] 2026-04-23T05:33:25Z constructive <constructive@5b0c196eeb62> # add schemas/prescriptions/tables/prescriptions
+schemas/prescriptions/policies/prescriptions_rls [schemas/prescriptions/tables/prescriptions] 2026-04-23T05:33:25Z constructive <constructive@5b0c196eeb62> # add schemas/prescriptions/policies/prescriptions_rls
