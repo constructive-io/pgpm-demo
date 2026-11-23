@@ -124,16 +124,17 @@ const deployOptions = getDeploymentEnvOptions();
 | `SERVER_ORIGIN` | Server origin URL |
 | `SERVER_STRICT_AUTH` | Strict authentication mode |
 
-### CDN/Storage
+### Storage
+
+Endpoint, provider, region, bucket and public URL prefix are never env: they
+are `metaschema_modules_public.storage_module` rows (NULL inherits the platform
+database's `platform` plane). Only the credentials are env, and both are
+required wherever storage is used:
 
 | Variable | Description |
 |----------|-------------|
-| `BUCKET_PROVIDER` | Storage provider (s3, minio) |
-| `BUCKET_NAME` | Bucket name |
-| `AWS_REGION` | AWS region |
-| `AWS_ACCESS_KEY_ID` | AWS access key |
-| `AWS_SECRET_ACCESS_KEY` | AWS secret key |
-| `MINIO_ENDPOINT` | MinIO endpoint URL |
+| `STORAGE_ACCESS_KEY_ID` | Object-store access key |
+| `STORAGE_SECRET_ACCESS_KEY` | Object-store secret key |
 
 ### Jobs Configuration
 

@@ -75,15 +75,13 @@ env:
   PGPASSWORD: password
 ```
 
-For MinIO/S3 testing (uploads, storage):
+For RustFS/S3 testing (uploads, storage) — credentials only; endpoint,
+provider and region are `storage_module` rows (fixtures set them):
 
 ```yaml
 env:
-  MINIO_ENDPOINT: http://localhost:9000
-  AWS_ACCESS_KEY: minioadmin
-  AWS_SECRET_KEY: minioadmin
-  AWS_REGION: us-east-1
-  BUCKET_NAME: test-bucket
+  STORAGE_ACCESS_KEY_ID: constructive
+  STORAGE_SECRET_ACCESS_KEY: constructive-dev-secret
 ```
 
 ## PGPM CLI Caching
@@ -318,22 +316,22 @@ steps:
       fi
 ```
 
-## MinIO Service Container
+## RustFS Service Container
 
 For testing uploads and S3-compatible storage:
 
 ```yaml
 services:
-  minio_cdn:
-    image: minio/minio:edge-cicd
+  rustfs_cdn:
+    image: rustfs/rustfs:1.0.0-rc.5
     env:
-      MINIO_ROOT_USER: minioadmin
-      MINIO_ROOT_PASSWORD: minioadmin
+      RUSTFS_ACCESS_KEY: constructive
+      RUSTFS_SECRET_KEY: constructive-dev-secret
+      RUSTFS_ADDRESS: ":9000"
     ports:
       - 9000:9000
-      - 9001:9001
     options: >-
-      --health-cmd "curl -f http://localhost:9000/minio/health/live || exit 1"
+      --health-cmd "curl -f http://localhost:9000/health || exit 1"
       --health-interval 10s
       --health-timeout 5s
       --health-retries 5
